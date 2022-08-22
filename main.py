@@ -32,6 +32,13 @@ remainder = """\n
 周五七点
 周六八点
 """
+"""
+药宗美人图
+12.3成男
+12.4成女
+12.7正太
+12.9萝莉
+"""
 def get_weather():
   url = "http://autodev.openspeech.cn/csp/api/v2.1/weather?openId=aiuicus&clientType=android&sign=android&city=" + city
   res = requests.get(url).json()
