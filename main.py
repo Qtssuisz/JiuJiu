@@ -16,7 +16,14 @@ app_secret = os.environ["APP_SECRET"]
 
 user_id = os.environ["USER_ID"]
 template_id = os.environ["TEMPLATE_ID"]
-remainder = os.environ['REMAINDER']
+remainder = """\n
+#############\n
+晚上6点健身\n
+染头发\n
+有空看会儿课\n
+八点练习赛\n
+喜欢小眭\n
+#############"""
 
 
 def get_weather():
