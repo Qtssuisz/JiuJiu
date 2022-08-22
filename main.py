@@ -15,6 +15,7 @@ app_id = os.environ["APP_ID"]
 app_secret = os.environ["APP_SECRET"]
 
 user_id = os.environ["USER_ID"]
+user_id_ = os.environ["USER_ID_"]
 template_id = os.environ["TEMPLATE_ID"]
 remainder = """\n
 #############\n
@@ -65,5 +66,5 @@ data = {\
         "color":get_random_color()},\
         "remainder":{"value":remainder}\
        }
-res = wm.send_template(user_id, template_id, data)
+res = wm.send_template(user_id, template_id, data), wm.send_template(user_id_, template_id, data)
 print(res)
