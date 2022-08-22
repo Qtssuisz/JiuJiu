@@ -16,6 +16,7 @@ app_secret = os.environ["APP_SECRET"]
 
 user_id = os.environ["USER_ID"]
 template_id = os.environ["TEMPLATE_ID"]
+remainder = os.environ["REMAINDER"]
 
 
 def get_weather():
@@ -54,7 +55,8 @@ data = {\
         "love_days":{"value":get_count()},\
         "birthday_left":{"value":get_birthday()},\
         "words":{"value":get_words(),\
-        "color":get_random_color()}\
+        "color":get_random_color()},\
+        "remainder":{"value":remainder}\
        }
 res = wm.send_template(user_id, template_id, data)
 print(res)
