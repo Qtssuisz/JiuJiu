@@ -19,7 +19,7 @@ user_id_ = "oU1cX6H0njPkQao84BPmbNF5kS90"
 template_id = os.environ["TEMPLATE_ID"]
 remainder = """\n
 #############\n
-6点健身\n
+5点健身\n
 十二点上课\n
 染头发\n
 好好和我谈恋爱\n
