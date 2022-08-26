@@ -20,7 +20,6 @@ template_id = os.environ["TEMPLATE_ID"]
 remainder = """\n
 #############\n
 8点健身\n
-染头发\n
 好好和我谈恋爱\n
 #############"""
 """
