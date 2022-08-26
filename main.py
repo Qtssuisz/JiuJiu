@@ -19,15 +19,14 @@ user_id_ = "oU1cX6H0njPkQao84BPmbNF5kS90"
 template_id = os.environ["TEMPLATE_ID"]
 remainder = """\n
 #############\n
-5点健身\n
-十二点上课\n
+8点健身\n
 染头发\n
 好好和我谈恋爱\n
 #############"""
 """
 健身
-周五七点
 周六八点
+周日八点
 """
 """
 药宗美人图
